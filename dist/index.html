@@ -4,18 +4,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" rel="stylesheet" />
+    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet" />
   <title>Document</title>
 </head>
 
 <body>
-  <button id="connect">Conectar</button>
+  <div class="container-fluid">
+  <button id="connect" style="text-align: center;">Conectar</button>
 
   <div style="display: none" id="content">
-    <h1>Tu cuenta: </h1>
+    <h3>Tu cuenta: </h3>
     <span id="account"></span>
+    <ul>&nbsp</ul>
+    
     <div>
       <h3>Balance: </h3><span id="balancee"></span>
     </div>
+    <ul>&nbsp</ul>
 
     <form id="send" style="margin-top: 10px;">
       <label>Address</label>
@@ -31,6 +38,7 @@
 
 
   <script src="./main.js"></script>
+</div>
 </body>
 
 </html>
