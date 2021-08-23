@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <button id="connect">Conectar</button>
+
+  <div style="display: none" id="content">
+    <h1>Tu cuenta: </h1>
+    <span id="account"></span>
+    <div>
+      <h3>Balance: </h3><span id="balancee"></span>
+    </div>
+
+    <form id="send" style="margin-top: 10px;">
+      <label>Address</label>
+      <input id="recipient" type="text" placeholder="Recipient">
+
+      <label>In weis</label>
+      <input id="amount" type="number" placeholder="Amount">
+      <button>Transact</button>
+
+    </form>
+  </div>
+
+
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
